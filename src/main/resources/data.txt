@@ -1,0 +1,22 @@
+//	@NotEmpty(message = GlobalEmployeeFieldsConstants.employeeNameIsEmpty)
+//	@Size(min = 2, max = 20,message = GlobalEmployeeFieldsConstants.employeeNameLenght)
+//	@Column(nullable = false)
+
+String regex = ".*\\d.*"; name not contains digit
+String regex = "^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$";
+String regex = "\\d{10}"; number not contains charachter
+
+date in mm/dd/yyyy format = "^(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d$"
+dd-mm-yyyy = "^(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\d\d$"
+
+
+age = "^(?:[1-9][0-9]?|1[01][0-9]|120)$"
+
+
+
+
+Tools Used to monitor logs in industry
+1> WinScp -> Requires(IP Address, Username, Password, Path)
+2> Putty
+3> Splunk -> Used In Most Of the industry (recommended), we can search a specific exception by time date etc using query
+
